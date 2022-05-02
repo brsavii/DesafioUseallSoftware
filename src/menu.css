@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@200&family=Libre+Baskerville&family=Montserrat:wght@300&family=Roboto+Condensed&display=swap');
+
+.container-titulo {
+    display: flex;
+    justify-content: left;
+    background-image: linear-gradient(to right, #6051e6 , #3cbbec);
+    align-items: center;
+    padding: 0.7rem;
+}
+.titulo-img {
+    width: 3.7rem;
+    padding-right: 0.2rem;
+}
+.titulo-texto {
+    color: #ffffff;
+    font-size: 1.4rem;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    padding-left: 0.2rem ;
+}
+.navegacao-lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.navegacao-lista--opcoes {
+    background-image: linear-gradient(to right, #6051e6 , #3cbbec);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 15px;
+    height: 250px;
+    margin: 2rem;
+    width: 50%;
+    opacity: 0.9;
+}
+.navegacao-lista--opcoes:hover {
+    opacity: 1;
+
+}
+.navegacao-lista--opcoes p {
+    font-size: 1.7rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 2rem;
+}
+.navegacao-botao:hover {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+

@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@200&family=Libre+Baskerville&family=Montserrat:wght@300&family=Roboto+Condensed&display=swap');
+
+.calcular-botao:hover {
+    opacity: 0.9;
+}
+.calcular-botao {
+    margin-bottom: 2rem;
+}
+.secao-input {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
