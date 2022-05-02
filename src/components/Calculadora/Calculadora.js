@@ -36,11 +36,11 @@ function Calculadora() {
 
     return (
         <section className="navegacao-lista">
-            <div style={{opacity: 0.9, height: '40px', width: '30%', marginBottom: 0}} className="navegacao-lista--opcoes">
+            <div style={{opacity: 0.9, height: '40px', width: '380px', marginBottom: 0}} className="navegacao-lista--opcoes">
                 <span style={{color: '#ffffff', textTransform:'uppercase', fontWeight: 700}}>O seu IMC é: {imc} kg/mc = {verificarIMC()}</span>
             </div>
 
-            <div className="navegacao-lista--opcoes" style={{opacity: 0.9, height: '450px', width: '30%'}}>
+            <div className="navegacao-lista--opcoes" style={{opacity: 0.9, height: '450px', width: '380px'}}>
                 <article className="secao-input">
                      <label className="titulo-texto">Digite Sua Altura:</label>
                     <AutoComplete type="number" placeholder="metros" value={altura} onChange={(e)=>{setAltura(e.target.value)}}/>

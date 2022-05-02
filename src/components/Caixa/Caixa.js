@@ -81,11 +81,11 @@ function Caixa() {
 
     return (
         <section className="navegacao-lista">
-            <div style={{ opacity: 0.9, height: '100px', width: '25%', marginBottom: 0 }} className="navegacao-lista--opcoes">
+            <div style={{ opacity: 0.9, height: '100px', width: '350px', marginBottom: 0 }} className="navegacao-lista--opcoes">
                 <span style={{ color: '#ffffff', textTransform: 'uppercase', fontWeight: 700 }}>Saque: {notas}</span>
             </div>
 
-            <div className="navegacao-lista--opcoes" style={{ opacity: 0.9, height: '450px', width: '25%' }}>
+            <div className="navegacao-lista--opcoes" style={{ opacity: 0.9, height: '450px', width: '350px' }}>
                 <article className="secao-input">
                     <label className="titulo-texto">Valor De Saque:</label>
                     <InputNumber value={ValorSaque} onValueChange={(e) => { setValorSaque(e.target.value) }} min={0} required showButtons mode="currency" currency="BRL" />
